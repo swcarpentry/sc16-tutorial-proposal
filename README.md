@@ -5,17 +5,17 @@ Please see the [call for tutorials](https://github.com/swcarpentry/hpc-novice/fi
 for all information related to the submission.
 Here is the section about the requirements:
 
-A successful proposal will clearly describe (in English) the tutorial topic,
+> A successful proposal will clearly describe (in English) the tutorial topic,
 the target audience, why it is of relevance to that audience,
 and the content, schedule, and organization of the tutorial in a detailed course outline.
 The “detailed course outline” is the most critical part of the submission.
 To better understand the content and format of a submission,
 we encourage potential submitters to view a sample submission form well before the submission deadline
 by visiting http://submissions. supercomputing.org, and clicking on the “sample submission forms” link.
-
-The proposal file should contain the following sections, each beginning on a separate page:
-
-1. [Abstract](abstract.md) - 200 words maximum
+>
+> The proposal file should contain the following sections, each beginning on a separate page:
+>
+> 1. [Abstract](abstract.md) - 200 words maximum
 2. [Description](description.md) - 2 pages maximum
 * General description of tutorial content;
 * Targeted audience (researchers, students, developers, practitioners, etc.)
@@ -32,8 +32,8 @@ how it will be updated for SC16
 4. [Description of hand on demos/exercises](hands-on.md)
 5. Curriculum vitae for each presenter (2-page maximum each). Each should include a list of tutorials/courses
 the presenter has taught.
-
-Submission of samples of visual aids is strongly recommended,
+>
+> Submission of samples of visual aids is strongly recommended,
 either as an appendix to the tutorial proposal file,
 a separate file uploaded with the tutorial proposal file,
 or in the form of URLs in the main proposal file that point to materials hosted elsewhere.
@@ -50,4 +50,4 @@ clear justification for the request in their proposal.)
 Demos and exercises may target common attendee laptop configurations
 (e.g., using a bootable “live cd”),
 but should provide a fallback configuration for attendees
-without access to such a laptop during the tutorial.
+without access to such a laptop during the tutorial."
