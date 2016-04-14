@@ -1,4 +1,12 @@
 
+# SC '16 Tutorial Proposal
+
+This is a proposal to teach HPC Carpentry at Supercomputing '16,
+as part of the tutorials section of the conference.
+This document is developed collaboratively.
+To contribute, please submit a pull request.
+For discussion, please raise an issue.
+
 # Proposal requirements
 
 Please see the [call for tutorials](https://github.com/swcarpentry/hpc-novice/files/210155/sc16-tutorials-call.pdf)
