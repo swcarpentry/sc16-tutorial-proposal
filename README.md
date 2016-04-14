@@ -11,7 +11,7 @@ Here is the section about the requirements:
 > The “detailed course outline” is the most critical part of the submission.
 > To better understand the content and format of a submission,
 > we encourage potential submitters to view a sample submission form well before the submission deadline
-> by visiting http://submissions. supercomputing.org, and clicking on the “sample submission forms” link.
+> by visiting http://submissions.supercomputing.org, and clicking on the “sample submission forms” link.
 >
 > The proposal file should contain the following sections, each beginning on a separate page:
 >
