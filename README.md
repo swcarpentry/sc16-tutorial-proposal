@@ -6,6 +6,7 @@ as part of the tutorials section of the conference.
 This document is developed collaboratively.
 To contribute, please submit a pull request.
 For discussion, please raise an issue.
+Discussion on issues and reviews of existing pull requests are equally welcome!
 
 # Proposal requirements
 
