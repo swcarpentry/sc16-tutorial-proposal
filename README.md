@@ -16,7 +16,7 @@ Here is the section about the requirements:
 > The proposal file should contain the following sections, each beginning on a separate page:
 >
 > 1. [Abstract](abstract.md) - 200 words maximum
-> 2. [Description](description.md) - 2 pages maximum
+> 2. [Description](description.md) - 2 pages maximum, containing the following sections:
 >   * General description of tutorial content;
 >   * Targeted audience (researchers, students, developers, practitioners, etc.)
 >   * Why the topic is relevant to SC16 attendees
