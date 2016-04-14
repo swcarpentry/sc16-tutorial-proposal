@@ -32,3 +32,22 @@ how it will be updated for SC16
 4. [Description of hand on demos/exercises](hands-on.md)
 5. Curriculum vitae for each presenter (2-page maximum each). Each should include a list of tutorials/courses
 the presenter has taught.
+
+Submission of samples of visual aids is strongly recommended,
+either as an appendix to the tutorial proposal file,
+a separate file uploaded with the tutorial proposal file,
+or in the form of URLs in the main proposal file that point to materials hosted elsewhere.
+If the proposed tutorial includes hands-on demos and/or exercises,
+the proposal should include detailed evidence that the computing
+and networking resources needed for the demos/exercises will be available during the tutorial,
+and that the demos/exercises will work for attendees on those resources
+(i.e., they have been fully tested and debugged).
+SC16 will provide SCinet wireless network access to all tutorial rooms,
+and may provide wired network and power to classroom-style seating for
+“hands-on” tutorials upon request.
+(Tutorials requesting wired network and power must include a
+clear justification for the request in their proposal.)
+Demos and exercises may target common attendee laptop configurations
+(e.g., using a bootable “live cd”),
+but should provide a fallback configuration for attendees
+without access to such a laptop during the tutorial.
