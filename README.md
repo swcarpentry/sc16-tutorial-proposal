@@ -17,17 +17,17 @@ Here is the section about the requirements:
 >
 > 1. [Abstract](abstract.md) - 200 words maximum
 > 2. [Description](description.md) - 2 pages maximum
-> * General description of tutorial content;
-> * Targeted audience (researchers, students, developers, practitioners, etc.)
-> * Why the topic is relevant to SC16 attendees
-> * If the tutorial has a state of the practice component, a clear description of what and how those
-> parts involve state of the practice
-> * Content level (% beginner, % intermediate, % advanced);
-> * Audience prerequisites;
-> * If there are multiple presenters, how presenters will ensure presentations form a cohesive whole
-> as opposed to a sequence of disparate talks; and
-> * If your tutorial has been presented previously, a list of when and where it has been presented and
-> how it will be updated for SC16
+>   * General description of tutorial content;
+>   * Targeted audience (researchers, students, developers, practitioners, etc.)
+>   * Why the topic is relevant to SC16 attendees
+>   * If the tutorial has a state of the practice component, a clear description of what and how those
+>   parts involve state of the practice
+>   * Content level (% beginner, % intermediate, % advanced);
+>   * Audience prerequisites;
+>   * If there are multiple presenters, how presenters will ensure presentations form a cohesive whole
+>   as opposed to a sequence of disparate talks; and
+>   * If your tutorial has been presented previously, a list of when and where it has been presented and
+>   how it will be updated for SC16
 > 3. [Detailed course outline](outline.md) - 1 page maximum
 > 4. [Description of hand on demos/exercises](hands-on.md)
 > 5. Curriculum vitae for each presenter (2-page maximum each). Each should include a list of tutorials/courses
