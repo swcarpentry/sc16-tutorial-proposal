@@ -7,6 +7,8 @@ This document is developed collaboratively.
 To contribute, please submit a pull request.
 For discussion, please raise an issue.
 Discussion on issues and reviews of existing pull requests are equally welcome!
+This proposal is written based on the discussion
+[here](https://github.com/swcarpentry/hpc-novice/issues/4).
 
 # Proposal requirements
 
