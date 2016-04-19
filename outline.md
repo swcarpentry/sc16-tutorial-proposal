@@ -38,3 +38,5 @@ As part of this work, she has to run several simulations of [something].
 Her program takes several hours to run.
 She has proflied her program and found out that a tight inner loop
 takes 95% of the time, etc.
+
+> Lola was just hired by a company/institute to help prepare the purchase of a multi-million experiment. She is tasked to research what temperatures may occur in the lab room, where the device will be installed, as the experiment will produce wrong results if overheating and all budget was invested invain. For this, she has a 2D steady-state heat transport simulation setup that will give her predictions through the year, i.e. what temperatures to expect at a given hour of the day. After she analyses the data at hand, a collaborator from a neighboring instute comes around and proposes a "better" algorithm for this kind of simulation. Lola now has to analyse both datasets and compare the predictions to the actual measuremets she has. On top, she needs to update her knowledge about the highest temperature that can be produced in the lab.
