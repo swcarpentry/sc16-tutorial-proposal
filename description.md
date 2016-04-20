@@ -1,7 +1,7 @@
 
 # Detailed description of the proposed tutorial
 
-Researchers come in contact with HPC resources when they have:
+Many researchers in scientific computing will eventually run into:
 
   * data that is too big to fit on their personal machines or lab workstations,
   * code that takes too long to run
