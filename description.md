@@ -2,8 +2,10 @@
 # Detailed description of the proposed tutorial
 
 Researchers come in contact with HPC resources when they have:
+
     * data that is too big to fit on their personal machines or lab workstations,
     * code that takes too long to run
+
 From there, the next step for most researchers is usually to get access to a campus HPC resource.
 Ideally, software they are using can be configured to take advantage of
 parallel/distributed hardware with little effort.
@@ -13,6 +15,7 @@ Yet another class of users will still run their code serially,
 but will leverage HPC resources to run it on several datasets concurrently.
 For all the above users, this is a transition in more than just size and scale.
 It's also the point at which they are introduced to several new ideas:
+
     * remote v/s local computers
     * command line v/s GUI
     * interactive v/s batch processing
