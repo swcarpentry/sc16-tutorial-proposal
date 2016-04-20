@@ -41,9 +41,10 @@ basic lab skills for high performance computing.
 Our target audience are researchers (generally graduate students)
 that have domain expertise/are developing domain expertise,
 but are new to HPC. Prerequesites for the HPC Carpentry workshop are few:
-    - some experience with the unix shell
-    - some experience with programming
-    - domain expertise (they know what they want to use the HPC resource for, but not *how* to use it)
+
+  * some experience with the unix shell
+  * some experience with programming
+  * domain expertise (they know what they want to use the HPC resource for, but not *how* to use it)
 
 The workshop will be delivered by certified Software Carpentry instructors
 who - as part of SWC's instructor training - have demonstrated an understanding of
