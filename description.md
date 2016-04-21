@@ -1,14 +1,10 @@
 # Detailed description of the proposed tutorial
 
-<<<<<<< HEAD
 In the pursuit of scientific research
 that is more correct,
 more widely applicable,
 or simply needs to be done faster,
 many researchers will run into
-=======
-Many researchers in scientific computing will eventually run into:
->>>>>>> e88686b2e13bdb5f301436e01de74caad103f1ff
 
   * data that is too big to fit on their personal machines or lab workstations,
   * code that takes too long to run
