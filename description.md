@@ -1,55 +1,64 @@
-
 # Detailed description of the proposed tutorial
 
-Here are some points to develop the detailed description.
+In the pursuit of scientific research
+that is more correct,
+more widely applicable,
+or simply needs to be done faster,
+many researchers will run into
 
-* Researchers enter HPC for primarily two reasons:
-their data is too big to fit on their personal machines or lab workstations,
-and/or their code takes too long to run.
+  * data that is too big to fit on their personal machines or lab workstations,
+  * code that takes too long to run
 
-* The next step is usually to get access to a campus HPC resource
-(or cloud resource?).
+From here, their next step is usually to get access to a campus HPC resource.
+Ideally, software they are using can be configured to take advantage of
+parallel/distributed hardware with little effort.
+Many of them will need to develop some background in parallel computing;
+and learn to apply those concepts via OpenMP, MPI, CUDA or some other platform.
+Yet another class of researchers will still run their code exactly as on their own machines but
+will leverage HPC resources to run it on several pieces of data concurrently.
+For many of the above users, this will be a transition in more than just size and scale.
+It's also the point at which they are introduced to several new, unfamiliar ideas:
 
-* Either their software is parallel enabled, or they need to
-implement parallel functionality. Coursework and online materials cover
-MPI, OpenMP, CUDA, Hadoop whatever.
+  * remote v/s local computers
+  * command line v/s GUI
+  * interactive v/s batch processing
+  * decoupled preprocessing, computation and analysis stages
 
-* In between, they must learn how to access the facility, how to get their data in and out,
-and how to access software available there. This training is generally provided by the site HPC providers.
-sysadmins, research support staff or HPC "facilitators".
+Thus, before they are ready to write and run parallel software,
+researchers need to develop a somewhat orthogonal set of skills to do so *effectively*, such as
+task automation using the UNIX shell and scripting,
+interacting with remote resources,
+understanding queues and scheduling,
+and managing parallel workflows.
+For many researchers, especially those from non-computing fields,
+this training is missing from graduate-level coursework.
+It is however,
+offered by various groups on different sites,
+including HPC center staff, system administrators, and
+research computing facilitators,
+and is generally offered as an "orientation" to the site's HPC resource.
 
-* But we cannot ignore the fact that for many users,
-this is also the first point of contact with a command-line interface.
-They are generally going from a tightly-coupled workflow environment,
-to one in which preprocessing, computation and analysis of results are de-coupled.
-(They may not see the value in this, and we must bring it out)
-Task automation - which may not have been a part of their workflow so far - is now
-*key* to effective cluster use.
+HPC Carpentry is an effort to bring together these groups to collaboratively develop
+lesson materials and workshop practices to effectively teach
+"basic lab skills for high performance computing".
+The target audience for a HPC Carpentry workshop would be
+"novice" HPC users, that have:
 
-* So before users are ready to take advantage of HPC resources successfully,
-they need exposure to concepts like: 
-    - command line v/s gui (task automation)
-    - profiling instead of guessing?
-    - testing and ensuring correctness?
-    - interacting with HPC resources (logging in, data transfer)
-    - understanding cluster structure (hardware, schedulers, policies)
-    - configuring environment and software
-    - queues and batch scheduling: submit-and-forget
+  * little to no experience with the unix shell
+  * some experience with programming
+  * domain expertise (know what they want to use the HPC resource for, but not *how* to use it)
 
-* That's the role that HPC Carpentry will play.
-The targeted audience are researchers and students that are entering
-HPC. Very few prerequestites, namely:
+Thus, an offering of HPC Carpentry at Supercomputing '16 is relevant to two
+audiences:
 
-    - some experience with the unix shell
-    - some experience with programming
-    - domain expertise (they know what they want to use the HPC resource for, but not *how* to use it)
+  1. Novice HPC users as defined above
+  2. HPC *trainers* that are interested
+  in the "Software Carpentry" approach to delivering workshops
 
-* (For SC '16, another audience that may be interested are HPC trainers themselves)
-
-* This course will be delivered by SWC instructors, who
-
-    - have some exposure to ideas of educational psychology and instructional design
-    - are enthusiastic about teaching computing
-    - in touch with best practices in respective fields
-    - frequently teach together in teams
-    - have lots of experience teaching novices, and creating a comfortable environment for novice learners
+The workshop will be delivered by certified Software Carpentry instructors
+who - as part of SWC's instructor training - have demonstrated an understanding of
+ideas in educational psychology, and evidences-based instructional design.
+As volunteers, instructors are passionate about teaching - and enthusiastic to share with learners
+the tools and practices they apply successfully in their own domains.
+Instructors teach frequently in teams, and have experience in providing a cohesive workshop experience
+and creating a comfortable environment for novice learners.
