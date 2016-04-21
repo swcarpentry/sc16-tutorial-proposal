@@ -10,7 +10,5 @@ which is aimed at teaching researchers across a broad range of disciplines
 "basic lab skills for research computing".
 We are also inspired by the success of the Data Carpentry project in specializing that model
 to better serve specific audiences in data science.
-Our hope is that HPC Carpentry becomes a fixture at Supercomputing conferences,
-serving not only as *the* entry-level workshop targeted at novices offered at Supercomputing,
-[NOTE: compare to the role of SWC/DC at PyCon/SciPy?]
-but also as a platform for discussion about the best practices, tools and concepts in HPC training.
+Our hope is that HPC Carpentry becomes a fixture at Supercomputing conferences and 
+also as a platform for discussion about the best practices, tools and concepts in HPC training.
