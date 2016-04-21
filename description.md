@@ -56,9 +56,9 @@ audiences:
   in the "Software Carpentry" approach to delivering workshops
 
 The workshop will be delivered by certified Software Carpentry instructors
-who - as part of SWC's instructor training - have demonstrated an understanding of
-ideas in educational psychology, and evidences-based instructional design.
-As volunteers, instructors are passionate about teaching - and enthusiastic to share with learners
+who---as part of SWC's instructor training---have demonstrated an understanding of
+ideas in educational psychology, and evidence-based instructional design.
+As volunteers, instructors are passionate about teaching---and enthusiastic to share with learners
 the tools and practices they apply successfully in their own domains.
 Instructors teach frequently in teams, and have experience in providing a cohesive workshop experience
 and creating a comfortable environment for novice learners.
