@@ -14,8 +14,8 @@ Ideally, software they are using can be configured to take advantage of
 parallel/distributed hardware with little effort.
 Many of them will need to develop some background in parallel computing;
 and learn to apply those concepts via OpenMP, MPI, CUDA or some other platform.
-Yet another class of researchers will still run their code exactly as on their own machines but
-will leverage HPC resources to run it on several pieces of data concurrently.
+Yet another class of researchers will still run their code exactly as on their own machines,
+but will leverage HPC resources to run it on several pieces of data concurrently.
 For many of the above users, this will be a transition in more than just size and scale.
 It's also the point at which they are introduced to several new, unfamiliar ideas:
 
