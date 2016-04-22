@@ -4,7 +4,7 @@
 
 As described in the "tutorial description" section,
 an HPC Carpentry workshop is aimed at novice HPC users with domain expertise,
-but little to no expertise with the command line or batch computing.
+but little to no experience with the command line or batch computing.
 The content of this workshop is designed to help them become productive
 in this new environment as quickly as possible.
 
