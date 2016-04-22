@@ -16,7 +16,7 @@
 | Shell scripts                         |   30 min      |
 | Cluster structure and scheduling      |   20 min      |
 | Submitting and tracking a batch job   |   30 min      |
-| **Total time**                        |   180 min     |
+| **Total time**                        |   **180 min** |
 
 ### PM
 
@@ -29,7 +29,7 @@
 | Generating data: parallel numerical simulation            |   40 min      |
 | Analyzing data: high throughput analysis                  |   40 min      | 
 | Wrap-up and discussion                                    |   20 min      |
-| **Total time**                                            |   180 min     |
+| **Total time**                                            |   **180 min** |
 
 **Total time**: 180 min
 
