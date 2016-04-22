@@ -1,5 +1,73 @@
-
 # Detailed outline of the tutorial
+
+The workshop will be divided into morning (AM) and afternoon (PM) sessions:
+
+## AM
+
+The morning session will focus on introducing learners to the command line
+and how to interact with the cluster via the command line.
+It will also help learners develop a mental model of the cluster structure,
+and understand queues, scheduling and batch submission.
+
+The following sections will be covered:
+
+### Introduction to HPC and HTC
+
+### Remote computers and SSH
+
+In this section, learners will learn about command shells,
+run simple commands on a shell running on their own machines,
+and how they are able to obtain a shell on a remote computer via a secure shell client.
+At the end of the section, they will log in to the cluster.
+
+### Navigating the filesystem
+
+This section will introduce learners to the unix filesystem,
+basic commands to navigate the filesystem,
+and to create, copy, delete and move files and directories.
+Along the way, they will learn the anatomy of unix commands,
+i.e., switches, parameters and inputs.
+
+### Pipes and filters
+
+This section will introduce learners to the ideas of
+standard input and standard output,
+how to redirect standard output to a file,
+and how to chain (pipe) simple commands together
+to accomplish complex tasks.
+
+### Shell scripts
+
+This section will get learners to write a simple bash script.
+
+### Cluster structure and scheduling
+
+Now we will shift gears and discuss the structure of the cluster
+(compute nodes, storage, service nodes, etc.,) and importantly,
+talk about the scheduler.
+
+* available resources
+* requesting resources
+* scheduling and policies
+
+### Submitting and tracking a batch job
+
+## PM
+
+The afternoon session will walk learners through a *workflow* on the cluster.
+
+
+### Overview of the problem (20 minutes)
+
+### Getting code and data into the cluster (20 minutes)
+
+In this section, we will demonstrate
+
+### Downloading, installing and setting up the required software (40 minutes)
+
+### Running a simulation on the cluster (50 minutes)
+
+### Performing data analysis (30 minutes)
 
 The HPCCarpentry workshop will be a full day (6-hour) workshop,
 divided in four 90 minute sections.
