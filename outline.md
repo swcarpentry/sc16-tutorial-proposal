@@ -57,10 +57,11 @@ The simuation would take too long to run
 and generate too much data for her lab workstation,
 so she will use the local University's HPC facility for this work.
 
-They will then walk through the different steps involved,
-including data transfer, software installation, and
+They will then walk through the different steps involved, including
+data transfer,
+software installation and
 developing batch scripts to submit jobs for
-performing the simulation and analyse the results.
+performing the simulation and analyzing the results.
 
 ## Schedule
 
