@@ -54,7 +54,6 @@ This is an entry-level workshop with the following
 content level distribution:
 
 | Beginner      | 100%  |
-|---------------|-------|
 | Intermediate  | 0%    |
 | Advanced      | 0%    |
 
