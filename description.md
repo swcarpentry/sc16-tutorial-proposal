@@ -53,9 +53,10 @@ to allow conference attendees to visit both tutorials.
 This is an entry-level workshop with the following
 content level distribution:
 
-Beginner: 100%
-Intermediate: 0%
-Advanced: 0%
+| Beginner      | 100%  |
+|---------------|-------|
+| Intermediate  | 0%    |
+| Advanced      | 0%    |
 
 ## Audience prerequisites
 
