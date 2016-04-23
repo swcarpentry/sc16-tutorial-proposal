@@ -1,64 +1,79 @@
 # Detailed description of the proposed tutorial
 
-In the pursuit of scientific research
-that is more correct,
-more widely applicable,
-or simply needs to be done faster,
-many researchers will run into
+## General description of tutorial content
 
-  * data that is too big to fit on their personal machines or lab workstations,
-  * code that takes too long to run
+The aim of HPC Carpentry is to teach novice HPC users (defined below)
+"basic lab skills for high-performance computing".
+The material is designed to be covered in a full day (6 hours), and includes
+    * an introduction to the command line and scripting,
+    * a background in remote computing, cluster structure and batch submission, and
+    * management of parallel (high-throughput and high-performance) workflows.
 
-From here, their next step is usually to get access to a campus HPC resource.
-Ideally, software they are using can be configured to take advantage of
-parallel/distributed hardware with little effort.
-Many of them will need to develop some background in parallel computing;
-and learn to apply those concepts via OpenMP, MPI, CUDA or some other platform.
-Yet another class of researchers will still run their code exactly as on their own machines,
-but will leverage HPC resources to run it on several pieces of data concurrently.
-For many of the above users, this will be a transition in more than just size and scale.
-It's also the point at which they are introduced to several new, unfamiliar ideas:
+Designed for one site but blah blah.
+Collaboratively developed feedback blah.
 
-  * remote v/s local computers
-  * command line v/s GUI
-  * interactive v/s batch processing
-  * decoupled preprocessing, computation and analysis stages
+## Target audience
 
-Thus, before they are ready to write and run parallel software,
-researchers need to develop a somewhat orthogonal set of skills to do so *effectively*, such as
-task automation using the UNIX shell and scripting,
-interacting with remote resources,
-understanding queues and scheduling,
-and managing parallel workflows.
-For many researchers, especially those from non-computing fields,
-this training is missing from graduate-level coursework.
-It is however,
-offered by various groups on different sites,
-including HPC center staff, system administrators, and
-research computing facilitators,
-and is generally offered as an "orientation" to the site's HPC resource.
+The target audience for HPC Carpentry at SC '16 may fall into two categories:
 
-HPC Carpentry is an effort to bring together these groups to collaboratively develop
-lesson materials and workshop practices to effectively teach
-"basic lab skills for high performance computing".
-The target audience for a HPC Carpentry workshop would be
-"novice" HPC users, that have:
+* Novice HPC users: attendees that are entering the field of high-performance computing,
+but have little to no experience with the command line or remote computing.
 
-  * little to no experience with the unix shell
-  * some experience with programming
-  * domain expertise (know what they want to use the HPC resource for, but not *how* to use it)
+* HPC Trainers: attendees that offer or are interested in offering
+training in high-performance computing for novice HPC users.
 
-Thus, an offering of HPC Carpentry at Supercomputing '16 is relevant to two
-audiences:
+## Tutorial goals and benefit to audience
 
-  1. Novice HPC users as defined above
-  2. HPC *trainers* that are interested
-  in the "Software Carpentry" approach to delivering workshops
+* Provide entry-level audiences the skills necessary to begin using HPC resources effectively.
+  This is the knowledge they need
+  *before* they are ready to
+  write MPI programs,
+  or run high-throughput analyses.
 
-The workshop will be delivered by certified Software Carpentry instructors
-who---as part of SWC's instructor training---have demonstrated an understanding of
-ideas in educational psychology, and evidence-based instructional design.
-As volunteers, instructors are passionate about teaching---and enthusiastic to share with learners
-the tools and practices they apply successfully in their own domains.
-Instructors teach frequently in teams, and have experience in providing a cohesive workshop experience
-and creating a comfortable environment for novice learners.
+* Demonstrate the "Software Carpentry" workshop layout and practices,
+  and their applicability to HPC training.
+
+## Relevance to SC '16 attendees
+
+Unlike the "Parallel Computing 101" tutorial that has been offered
+at Supercomputing for the past few years,
+this tutorial is directed at outreach,
+and bringing inexperienced users into the HPC community.
+The scope of the workshop is intentionally limited to focus on
+foundational concepts and respond to common interests of new users.
+
+The "Best Practices for HPC Training" tutorial,
+where trainers are invited to present their teaching experience,
+is an excellent complementary tutorial.
+Our hope is our proposed tutorial would not overlap on the schedule
+to allow conference attendees to visit both tutorials.
+
+## Content level
+
+This is an entry-level workshop with the following
+content level distribution:
+
+Beginner: 100%
+Intermediate: 0%
+Advanced: 0%
+
+## Audience prerequisites
+
+This workshop assumes very few prerequesites:
+  * Little to no experience with the command line or programming
+  * Domain expertise or developing domain expertise (users
+  know *what* they want to use HPC for, but not *how* to use it)
+
+The audience will be expected to bring a bring a laptop computer
+with wireless or wired internet for cluster SSH access.
+
+## Lesson material and presenters
+
+As with all Software Carpentry lessons, the material for HPC Carpentry
+is developed collaboratively on [GitHub](https://github.com/swcarpentry/hpc-novice).
+The presenters at SC '16 will be active contributors to the lesson material,
+and to discussions about how it should be delivered.
+Further, instructors are experienced teaching in teams and creating an
+interactive, comfortable learning environment.
+This will ensure that the workshop is presented as a cohesive whole,
+rather than a series of disparate talks.

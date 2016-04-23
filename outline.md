@@ -92,6 +92,4 @@ performing the simulation and analyzing the results.
 | Wrap-up and discussion                                    |   20 min      |
 | **Total time**                                            |   **180 min** |
 
-**Total time**: 180 min
-
 ## Organization (?)
