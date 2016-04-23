@@ -1,42 +1,97 @@
-
 # Detailed outline of the tutorial
 
-The HPCCarpentry workshop will be a full day (6-hour) workshop,
-divided in four 90 minute sections.
-Within each section,
-there will be alternate 10-15 minute
-live-coding demonstrations of a certain concept/procedure,
-and 10-15 minute exercise/challenge sections.
-Participants will be encouraged to work in teams
-for the challenge sections.
+## Content
 
-The first half (3-hours) will focus on helping learners develo
-a strong, but flexible mental model of the cluster structure,
-and to understand
-    * How to move data and programs to and from the cluster,
-    * How to submit jobs to the cluster,
-    * How to configure their environment,
-    * Use existing software and set up their own software.
+As described in the "tutorial description" section,
+an HPC Carpentry workshop is aimed at novice HPC users with domain expertise,
+but little to no experience with the command line or batch computing.
+The content of this workshop is designed to help them become productive
+in this new environment as quickly as possible.
 
-For the second half, learners will be presented with the following
-scenarious:
+Accordingly, the workshop is divided in three sections:
 
-> Jun is a researcher working on tracking the spread of disease by surveying newspaper
-articles as far back as 1900. He has acquired the text of all of these newspapers and has
-read the literature on natural language processing approaches for mining this data
-and has a Python script from a colleague where he can look for particular words.
-He knows he wants to apply these techniques to the newspaper corpus,
-but doesn’t know how to run the program and his local computer doesn’t
-have the required computational power, even if he could run the program.
-He’s heard that he should be able to run the analysis on his university’s
-HPC, but he doesn’t know where to start. He needs to understand what remote
-computing is, how to log on to the HPC, how to get his data on the HPC,
-run analyses there and get his analysis results back on to his own computer. 
+1. Introduction to the unix shell
+2. Cluster structure and scheduling
+3. Parallel workflows
 
-> Nelle is a Ph.D. student working on studying [something].
-As part of this work, she has to run several simulations of [something].
-Her program takes several hours to run.
-She has proflied her program and found out that a tight inner loop
-takes 95% of the time, etc.
+### The Unix Shell
 
-> Lola was just hired by a company/institute to help prepare the purchase of a multi-million experiment. She is tasked to research what temperatures may occur in the lab room, where the device will be installed, as the experiment will produce wrong results if overheating and all budget was invested invain. For this, she has a 2D steady-state heat transport simulation setup that will give her predictions through the year, i.e. what temperatures to expect at a given hour of the day. After she analyses the data at hand, a collaborator from a neighboring instute comes around and proposes a "better" algorithm for this kind of simulation. Lola now has to analyse both datasets and compare the predictions to the actual measuremets she has. On top, she needs to update her knowledge about the highest temperature that can be produced in the lab.
+The aim of this section is not to teach learners basic unix commands,
+or the syntax of bash scripting,
+but rather to motivate them
+to **automate tasks and develop pipelines**.
+Accordingly, this section will begin by making learners feel
+comfortable in a shell environment by having them perform basic tasks
+like navigating the filesystem and manipulating its contents.
+But the latter half of the section will be focused on concepts
+like redirection, piping, and shell scripts,
+which are key to effectively using the unix shell and to understanding the "unix philosophy".
+
+### Cluster structure and scheduling
+
+This section will help learners develop a strong mental model of the cluster,
+and how tasks get assigned and executed on the cluster.
+Learners will understand how nodes, CPUs, memory, etc., are organized,
+and "how it looks like one remote computer when it has a bazillion CPUs and several Terabytes?".
+At the end of the section, they will
+submit a batch job, trace its execution, and examine its results.
+Throughout, it will be stressed that different HPC sites
+have different setups, schedulers, policies and resources,
+and how learners can translate the concepts accordingly.
+
+### Parallel workflows
+
+In this section, learners will be presented with a specific research scenario,
+for example:
+
+> Lola was hired by a research lab to help prepare the purchase of a multi-million experiment.
+The experiment is known to fail at temperatures that are too low or too high.
+So Lola's task is to research the temperatures at a certain section of the lab room, where the device
+will be placed.
+She knows that the temperature changes follow a daily pattern,
+and she's written some code to simulate these temperature changes.
+After running this code and generating the temperature predictions,
+she determine how closely her predictions match the actual temperature readings
+she has for every day in the last year.
+The simuation would take too long to run
+and generate too much data for her lab workstation,
+so she will use the local University's HPC facility for this work.
+
+They will then walk through the different steps involved, including
+data transfer,
+software installation and
+developing batch scripts to submit jobs for
+performing the simulation and analyzing the results.
+
+## Schedule
+
+### AM
+
+| Section                               |   Time        |
+|---------------------------------------|---------------|
+| Introduction to HPC and HTC           |   10 min      |
+| Remote computers and SSH              |   10 min      |
+| Navigating the filesystem             |   40 min      |
+| Redirection and piping                |   30 min      |
+| Break                                 |   10 min      |
+| Shell scripts                         |   30 min      |
+| Cluster structure and scheduling      |   20 min      |
+| Submitting and tracking a batch job   |   30 min      |
+| **Total time**                        |   **180 min** |
+
+### PM
+
+| Section                                                   |   Time        |
+|-----------------------------------------------------------|---------------|
+| Overview of the research problem                          |   15 min      |
+| Importing code and data                                   |   15 min      |
+| Downloading, installing and configuring required software |   40 min      |
+| Break                                                     |   10 min      |
+| Generating data: parallel numerical simulation            |   40 min      |
+| Analyzing data: high throughput analysis                  |   40 min      | 
+| Wrap-up and discussion                                    |   20 min      |
+| **Total time**                                            |   **180 min** |
+
+**Total time**: 180 min
+
+## Organization (?)
