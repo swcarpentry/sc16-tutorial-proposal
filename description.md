@@ -9,8 +9,10 @@ The material is designed to be covered in a full day (6 hours), and includes
     * a background in remote computing, cluster structure and batch submission, and
     * management of parallel (high-throughput and high-performance) workflows.
 
-Designed for one site but blah blah.
-Collaboratively developed feedback blah.
+Although the workshop will focus primarily on a single HPC site
+(the Oklahoma State cluster),
+it is designed with the objective to teach concepts more generally,
+and to enable users to easily translate concepts to their local sites.
 
 ## Target audience
 
