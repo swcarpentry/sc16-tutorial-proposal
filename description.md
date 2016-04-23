@@ -5,9 +5,10 @@
 The aim of HPC Carpentry is to teach novice HPC users (defined below)
 "basic lab skills for high-performance computing".
 The material is designed to be covered in a full day (6 hours), and includes
-    * an introduction to the command line and scripting,
-    * a background in remote computing, cluster structure and batch submission, and
-    * management of parallel (high-throughput and high-performance) workflows.
+
+  * an introduction to the command line and scripting,
+  * a background in remote computing, cluster structure and batch submission, and
+  * management of parallel (high-throughput and high-performance) workflows.
 
 Although the workshop will focus primarily on a single HPC site
 (the Oklahoma State cluster),
