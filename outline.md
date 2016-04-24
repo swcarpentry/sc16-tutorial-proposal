@@ -89,5 +89,3 @@ They will then guide learners through the different steps involved, including
 | Analyzing data: high throughput analysis                  |   40 min      | 
 | Wrap-up and discussion                                    |   20 min      |
 | **Total time**                                            |   **180 min** |
-
-## Organization (?)
