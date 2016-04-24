@@ -27,29 +27,35 @@ training in high-performance computing for novice HPC users.
 
 ## Tutorial goals and benefit to audience
 
-* Provide entry-level audiences the skills necessary to begin using HPC resources effectively.
-  This is the knowledge they need
-  *before* they are ready to
-  write MPI programs,
-  or run high-throughput analyses.
+* Provide entry-level audiences the skills necessary to begin using HPC resources:
+  learners will be able to prepare and submit
+  HPC and HTC jobs in a more educated, organized and efficient way,
+  and analyze and report problems more effectively.
 
-* Demonstrate the "Software Carpentry" workshop layout and practices,
-  and their applicability to HPC training.
+* Demonstrate the "Software Carpentry" workshop layout and practices
+  and their applicability to HPC training:
+  HPC trainers will be introduced to the Software Carpentry project,
+  which aims to grow the network of trainers interested in teaching
+  productive tools and best practices in scientific computing.
 
 ## Relevance to SC '16 attendees
 
-Unlike the "Parallel Computing 101" tutorial that has been offered
+HPC Carpentry is primarily directed at community and outreach,
+and harmonious with some other tutorials that may
+be offered at SC '16.
+
+Like the "Parallel Computing 101" tutorial that has been offered
 at Supercomputing for the past few years,
-this tutorial is directed at outreach,
-and bringing inexperienced users into the HPC community.
+HPC Carpentry aims to bring inexperienced users into the HPC community.
 The scope of the workshop is intentionally limited to focus on
 foundational concepts and respond to common interests of new users.
 
 The "Best Practices for HPC Training" tutorial,
 where trainers are invited to present their teaching experience,
-is an excellent complementary tutorial.
-Our hope is our proposed tutorial would not overlap on the schedule
-to allow conference attendees to visit both tutorials.
+is an excellent complementary tutorial with significant community overlap.
+Our hope is that these workshops do not overlap on the schedule,
+so that attendees may be part of both,
+and there is scope for ideas to be exchanged.
 
 ## Content level
 
