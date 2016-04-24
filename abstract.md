@@ -1,14 +1,37 @@
 # Abstract
 
-This is a proposal to present the first High Performance Computing Carpentry (HPC Carpentry) workshop
-at Supercomputing 2016.
-Our vision for the HPC Carpentry workshop is a full-day (6 hour) workshop that teaches novice users
-the skills necessary to interact with high-performance computing (HPC) and high-throughput computing (HTC) resources
-and to conceptualize, develop and optimize workflows on them.
-The HPC Carpentry effort stems from the Software Carpentry workshop model,
-which is aimed at teaching researchers across a broad range of disciplines
-"basic lab skills for research computing".
-We are also inspired by the success of the Data Carpentry project in specializing that model
-to better serve specific audiences in data science.
-Our hope is that HPC Carpentry becomes a fixture at Supercomputing conferences and 
-also as a platform for discussion about the best practices, tools and concepts in HPC training.
+In the pursuit of scientific research that is
+more correct,
+more widely applicable,
+or simply needs to be done *faster*,
+many researchers will run into  
+
+* data that is too big to fit on their personal machines or lab workstations, and/or
+* code that takes too long to run
+
+the next step for these researchers is generally to get
+access to a local HPC resource.
+However, *before* they can use multi-threaded software,
+MPI, GPUs, or run high-throughput analyses on large datasets,
+they need to learn a different set of skills
+to do so *effectively*,
+such as task automation, cluster computing,
+and managing parallel workflows.
+This training is generally missing from coursework,
+but offered by various groups,
+including HPC center staff, system administrators, and
+research computing "facilitators".
+
+HPC Carpentry brings together these groups to design and deliver
+a full day workshop
+that teaches novice users these skills so that they
+can quickly become productive in an HPC environment.
+It is modeled on the lesson design and workshop practices
+of the
+[Software Carpentry](http://software-carpentry.org)
+and
+[Data Carpentry](http://www.datacarpentry.org)
+projects,
+which have found much success in teaching novice users
+"basic lab skills" and best practices in
+software development and data science.
