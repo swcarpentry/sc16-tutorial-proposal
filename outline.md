@@ -74,4 +74,4 @@ They will then guide learners through the different steps involved, including
 | Shell scripts and automation                          |   30 min      | Generating data: parallel numerical simulation            |   40 min      |
 | Cluster structure, scheduling and resource requests   |   20 min      | Analyzing data: high throughput analysis                  |   40 min      | 
 | Submitting and tracking a batch job                   |   30 min      | Wrap-up and discussion                                    |   20 min      |
-| **Total time**                                        |   **180 min** | **Total time**                                            | **180 min     |
+| **Total time**                                        |   **180 min** | **Total time**                                            | **180 min**   |
