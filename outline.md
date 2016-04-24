@@ -65,13 +65,13 @@ They will then guide learners through the different steps involved, including
 
 ### AM
 
-| AM                                                    |               || PM                                                        |               |
-|-------------------------------------------------------|---------------||-----------------------------------------------------------|---------------|
-| Introduction to HPC and HTC                           |   10 min      || Overview of the research problem                          |   15 min      |
-| Remote computers and SSH                              |   10 min      || Importing code and data                                   |   15 min      |
-| Introduction to the Unix shell                        |   70 min      || Modules and installing required software                  |   40 min      |
-| Break                                                 |   10 min      || Break                                                     |   10 min      |
-| Shell scripts and automation                          |   30 min      || Generating data: parallel numerical simulation            |   40 min      |
-| Cluster structure, scheduling and resource requests   |   20 min      || Analyzing data: high throughput analysis                  |   40 min      | 
-| Submitting and tracking a batch job                   |   30 min      || Wrap-up and discussion                                    |   20 min      |
-| **Total time**                                        |   **180 min** || **Total time**                                            | **180 min     |
+| AM                                                    |               | PM                                                        |               |
+|-------------------------------------------------------|---------------|-----------------------------------------------------------|---------------|
+| Introduction to HPC and HTC                           |   10 min      | Overview of the research problem                          |   15 min      |
+| Remote computers and SSH                              |   10 min      | Importing code and data                                   |   15 min      |
+| Introduction to the Unix shell                        |   70 min      | Modules and installing required software                  |   40 min      |
+| Break                                                 |   10 min      | Break                                                     |   10 min      |
+| Shell scripts and automation                          |   30 min      | Generating data: parallel numerical simulation            |   40 min      |
+| Cluster structure, scheduling and resource requests   |   20 min      | Analyzing data: high throughput analysis                  |   40 min      | 
+| Submitting and tracking a batch job                   |   30 min      | Wrap-up and discussion                                    |   20 min      |
+| **Total time**                                        |   **180 min** | **Total time**                                            | **180 min     |
