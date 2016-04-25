@@ -22,7 +22,7 @@ but offered by various groups,
 including HPC center staff, system administrators, and
 research computing "facilitators".
 
-HPC Carpentry brings together these groups to design and deliver
+HPC Carpentry is an effort to bring together these groups to design and deliver
 a full day workshop
 that teaches novice users these skills so that they
 can quickly become productive in an HPC environment.
