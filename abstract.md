@@ -9,7 +9,7 @@ many researchers will run into
 * data that is too big to fit on their personal machines or lab workstations, and/or
 * code that takes too long to run
 
-the next step for these researchers is generally to get
+The next step for these researchers is generally to get
 access to a local HPC resource.
 However, *before* they can use multi-threaded software,
 MPI, GPUs, or run high-throughput analyses on large datasets,
