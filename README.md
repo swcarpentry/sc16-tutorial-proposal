@@ -10,6 +10,10 @@ Discussion on issues and reviews of existing pull requests are equally welcome!
 This proposal is written based on the discussion
 [here](https://github.com/swcarpentry/hpc-novice/issues/4).
 
+# Ongoing work
+
+Ongoing work as a follow-on from this proposal is going on in the [`hpc-novice` lesson](https://github.com/swcarpentry/hpc-novice).
+
 # Final submission
 
 The final document submitted to SC '16 can be viewed [here](https://github.com/swcarpentry/sc16-tutorial-proposal/blob/master/final-document.pdf).
